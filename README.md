@@ -1,1 +1,0 @@
-# theo-gottschalch.github.io

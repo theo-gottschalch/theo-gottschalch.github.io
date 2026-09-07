@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Theo Gottschalch · Naturfotografie</title>
+  <meta name="description" content="Naturfotografie von Theo Gottschalch — die Website ist im Aufbau.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23f4f2ec'/%3E%3Cpath d='M9 23c0-8 5-13 14-14 1 9-4 14-11 14H9z' fill='%236f8f76'/%3E%3Cpath d='M9 23c3-6 7-9 12-10' stroke='%23f4f2ec' stroke-width='1.2' fill='none'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="stage">
+    <header class="intro">
+      <p class="eyebrow">Naturfotografie</p>
+      <h1>Theo&nbsp;Gottschalch</h1>
+      <hr class="rule">
+      <p class="status">Im Aufbau</p>
+    </header>
+
+    <section class="gallery" aria-label="Bildauswahl">
+      <figure>
+        <img src="images/winter.jpg" width="1400" height="933" decoding="async"
+             alt="Kleiner Vogel auf einem verschneiten Halm im Winter">
+      </figure>
+      <figure>
+        <img src="images/krokus.jpg" width="1400" height="933" decoding="async"
+             alt="Biene auf einer Krokusblüte, eine zweite im Anflug">
+      </figure>
+      <figure>
+        <img src="images/strand.jpg" width="1400" height="933" decoding="async"
+             alt="Zwei kleine Watvögel am Sandstrand">
+      </figure>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p class="copy">
+      <span>&copy; <span id="year">2026</span> Theo Gottschalch</span>
+      <span aria-hidden="true">&middot;</span>
+      <span>Alle Bilder urheberrechtlich geschützt</span>
+    </p>
+    <!-- Kontakt später ergänzen, z. B.: <a href="mailto:...">Kontakt</a> -->
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
